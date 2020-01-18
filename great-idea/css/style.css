@@ -10,36 +10,19 @@ a {
 	color: gray;
 }
 
-header > div {
-	display: inline-block;
-}
-
-.header-content {
-	padding: 30px 0;
-}
-
-nav {
-	padding: 40px 0;
+header {
+	display: flex;
+	flex-direction: column;
 }
 
 nav ul {
-	display: inline-block;
+	display: flex;
+	padding: 40px;
+	justify-content: space-between;
 }
 
-nav ul li {
-	display: inline-block;
-	margin: 0 20px;
-}
-
-nav a {
-	float: right;
+nav ul li:last-child {
 	margin-top: -10px;
-}
-
-nav a::after {
-	clear: both;
-	content: '';
-	display: table;
 }
 
 .header-left {
