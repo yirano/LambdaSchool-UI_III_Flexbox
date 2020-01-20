@@ -11,6 +11,7 @@ a {
 }
 
 button {
+	transform: scale(1);
 	transition: 300ms;
 }
 
@@ -86,6 +87,10 @@ section div {
 	flex-direction: column;
 }
 
+/*******************
+        home 
+********************/
+
 .about-top,
 .about-bottom {
 	display: flex;
@@ -109,8 +114,12 @@ section div {
 	text-align: center;
 }
 
-/*  services  */
-
+/*******************
+      services  
+********************/
+.services-container p {
+	line-height: 1.4em;
+}
 .services {
 	display: flex;
 	flex-wrap: wrap;
@@ -121,7 +130,6 @@ section div {
 	width: 47.5%;
 	padding: 25px;
 	margin-bottom: 45px;
-	line-height: 1.3em;
 	background-color: rgb(241, 241, 241);
 	border: 1px solid black;
 }
@@ -133,6 +141,25 @@ section div {
 	border: 1px solid black;
 	border-radius: 4px;
 }
+
+.facts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.facts div {
+	width: 48%;
+}
+
+.facts ul {
+	list-style: disc;
+	margin: 20px;
+	line-height: 1.4em;
+}
+
+/*********************
+        footer
+*********************/
 
 footer {
 	padding: 20px 0 120px;
