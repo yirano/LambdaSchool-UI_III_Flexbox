@@ -10,6 +10,15 @@ a {
 	color: gray;
 }
 
+button {
+	transition: 300ms;
+}
+
+button:hover {
+	transform: scale(1.07);
+	transition: 300ms;
+}
+
 header {
 	display: flex;
 	flex-direction: column;
@@ -98,6 +107,31 @@ section div {
 .middle-img {
 	padding: 40px 0;
 	text-align: center;
+}
+
+/*  services  */
+
+.services {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.services-content {
+	width: 47.5%;
+	padding: 25px;
+	margin-bottom: 45px;
+	line-height: 1.3em;
+	background-color: rgb(241, 241, 241);
+	border: 1px solid black;
+}
+
+.services button {
+	height: 35px;
+	width: 130px;
+	margin-top: 25px;
+	border: 1px solid black;
+	border-radius: 4px;
 }
 
 footer {
