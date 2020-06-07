@@ -9,7 +9,7 @@
 
 ## Objectives
 
-* [ ] Home Page Refactor:
+* [ ] Home Page:
   * Update the title of your Home page to say Great Idea!
   * Use Flexbox and Box-model to style your page 
   * In your navigation elements, point the services `<a href=""></a>` to `services.html`

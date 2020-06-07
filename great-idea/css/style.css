@@ -1,1 +1,65 @@
+*,
+html {
+	box-sizing: border-box;
+}
 
+body {
+	padding: 0 6rem;
+}
+
+h1 {
+	font-family: Bangers;
+	font-size: 5rem;
+	letter-spacing: 0.2rem;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+nav {
+	display: flex;
+}
+
+nav a {
+	padding: 1.8rem 2.5rem;
+}
+
+.header-content {
+	display: flex;
+	width: 90%;
+}
+
+.header-left,
+.header-right {
+	width: 47%;
+}
+
+section {
+	border-top: 1px solid black;
+}
+
+.top-content,
+.bottom-content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.two-column {
+	width: 47%;
+}
+
+.middle-content img {
+	width: 100%;
+}
+
+.three-column {
+	width: 31%;
+}
+
+footer {
+	text-align: center;
+}
